@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    box-sizing: border-box;
+    background-color: gray;
+background-image: url(https://blog.coingecko.com/wp-content/uploads/2020/03/rspec_blog.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 190%;
+}
+
+.first{
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(209, 49, 83);
+}
+
+.second{
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(209, 49, 83); 
+}
+.inner{
+    display: inline-block;
+    font-size: 80px;
+    margin-top: 20px;
+}
+
+.btn-inner{
+    display: inline-block;
+}
+
+.center {
+    margin: auto;
+    margin-top: 50px; 
+    margin-left: 40%;
+    
+  }
+
+@media screen and (max-width:560px){
+ h1{
+     font-size: 30px;
+     margin-bottom: -30px;
+     margin-top: 80px;
+ }       
+}
+
+
+@media screen and (max-width:560px){
+    .inner{
+        font-size: 60px;
+    }       
+   }
+   
+
+   @media screen and (max-width:560px){
+           
+    .second{
+        margin-top: 50px;
+    }
+   }
+   
+
+   
+
+   @media screen and (max-width:560px){
+    .center{
+        display: inline;
+        margin-left: 55px;
+        position: relative;
+        top: 50px;
+    }    
+   }
+   
+   @media screen and (max-width:560px){
+    body{
+        
+        background-size: 100% 290%        
+    }
+    }    
+   
+   
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+       <div class="first">
+        <h1>Javascript StopWatch</h1>
+       </div>
+
+       <div class="second">
+        <div class="inner" id="min">00</div><span style="font-size: 70px;">:</span>
+        <div class="inner" id="sec">00</div><span style="font-size: 70px;">:</span>
+        <div class="inner" id="msec">00</div>
+       </div>
+    
+       <div class="center" id="laps">
+        <div class="btn-inner"><button id="btnstart" type="button" class="btn btn-outline-danger" onclick="start()">Start</button></div>
+        <div class="btn-inner"><button type="button" class="btn btn-outline-danger" onclick="stop()">Pause</button></div>
+        <div class="btn-inner"><button type="button" class="btn btn-outline-danger" onclick="reset()">Reset</button></div>
+        <div class="btn-inner"><button type="button" id="laps" class="btn btn-outline-danger" onclick="lapTimer()">Lap</button></div>
+       </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
